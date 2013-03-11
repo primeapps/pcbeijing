@@ -1,0 +1,63 @@
+html { height: 100%; }
+body { height: 100%; margin: 0; padding: 0; }
+
+#index,#membership,#events,#more{
+	background:#031b51;
+	background-repeat:no-repeat; 
+	background-position:top center;
+	color:#fff;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
+	padding-bottom:100px;
+}
+
+.gallery { list-style: none; padding: 0; margin: 0; }
+.gallery:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.gallery li { float: left; width: 33.33333333%; }
+.gallery li a { display: block; margin: 5px; border: 1px solid #3c3c3c; }
+.gallery li img { display: block; width: 100%; height: auto; }
+
+p,h1,h2{text-shadow:none;}
+h2,h3,h4,h5{	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; text-shadow:none;font-weight:300;}
+
+#membership ul li,#more ul li{text-shadow:none;text-align:left;}
+
+.ui-icon-home {
+   background: url("../img/house.png") no-repeat 50% 50% !important;      
+   -moz-border-radius:0px;
+   -webkit-border-radius:0px;
+   border-radius:0px;
+   width:22px;
+   height:22px;
+   margin-top:-2px;/*Adjust this value to position the icon*/
+}
+
+.ui-icon-gallery {
+   background: url("../img/photos.png") no-repeat 50% 50% !important;      
+   -moz-border-radius:0px;
+   -webkit-border-radius:0px;
+   border-radius:0px;
+   width:22px;
+   height:22px;
+   margin-top:-2px;/*Adjust this value to position the icon*/
+}
+
+.ui-icon-membership {
+   background: url("../img/membership.png") no-repeat 50% 50% !important;      
+   -moz-border-radius:0px;
+   -webkit-border-radius:0px;
+   border-radius:0px;
+   width:32px;
+   height:21px;
+   margin-top:-2px;/*Adjust this value to position the icon*/
+}
+
+.ui-icon-more {
+   background: url("../img/more.png") no-repeat 50% 50% !important;      
+   -moz-border-radius:0px;
+   -webkit-border-radius:0px;
+   border-radius:0px;
+   width:22px;
+   height:22px;
+   margin-top:-2px;/*Adjust this value to position the icon*/
+}
